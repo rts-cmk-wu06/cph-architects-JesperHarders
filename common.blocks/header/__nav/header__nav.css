@@ -1,0 +1,59 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+}
+
+.Nav {
+    width: 100%;
+    display: none;
+}
+
+.Nav__ul {
+    list-style: none;
+    padding: 0;
+    background-color: #707070;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+    z-index: 5;
+}
+
+.Nav__a {
+    color: white;
+    text-decoration: none;
+}
+
+.Nav__li {
+    border-top: solid #92b8b7 1px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 430px) {
+    .Nav {
+        display: block;
+        width: 308px;
+    }
+
+    .Header__menu {
+        display: none;
+    }
+
+    .Nav__ul, .Nav__li{
+        background-color: #92b8b7;
+    }
+
+    .Nav__li {
+        display: inline;
+        font-size: 20px;
+        margin-right: 20px;
+        text-decoration: underline;
+    }
+
+    .Nav__ul {
+        margin: 46px 0 30px 84px;
+    }
+}

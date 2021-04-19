@@ -1,0 +1,49 @@
+.Main {
+    padding: 16px 16px 30px 16px;
+}
+
+.CPH__main {
+    padding: 16px 16px 30px 16px;
+}
+
+.Main__heading {
+    font-size: 48px;
+    margin: 0;
+}
+
+.Main__text {
+    font-size: 16px;
+    margin: 24px 0 0 0;
+}
+
+@media (min-width: 430px) {
+    .Main {
+        padding: 32px 176px 32px 176px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Main__text {
+        width: 672px;
+    }
+
+    .Main__heading_wrapper {
+        width: 672px;
+    }
+
+    .CPH__main {
+        padding: 0;
+        height: fit-content;
+        overflow: hidden;
+    }
+
+    .CPH__main-text {
+        font-size: 16px;
+        margin: 16px 0 55px 25%;
+    }
+
+    .CPH__main-heading {
+        margin-left: 25%;
+    }
+}

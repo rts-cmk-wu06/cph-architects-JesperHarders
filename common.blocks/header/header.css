@@ -1,0 +1,15 @@
+.Header {
+    background-color: #92b8b7;
+    height: 70px;
+}
+
+.Header__content {
+    display: flex;
+}
+
+@media (min-width: 430px) {
+    .Header {
+        display: flex;
+        justify-content: center;
+    }
+}

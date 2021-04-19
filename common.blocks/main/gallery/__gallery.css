@@ -1,0 +1,27 @@
+.gallery-image {
+    width: 107px;
+    height: 110px;
+}
+
+.Main__gridcontainer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 8px;
+    row-gap: 16px;
+    padding: 21px 11px 22px 11px;
+}
+
+@media (min-width: 430px) {
+    .gallery-image {
+        width: 221px;
+        height: 153px;
+    }
+
+    .Main__gridcontainer {
+        display: grid;
+        grid-template-columns: 221px 221px 221px;
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 75px 144px 75px 25%;
+    }
+}

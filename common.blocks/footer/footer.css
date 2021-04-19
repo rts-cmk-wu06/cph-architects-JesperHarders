@@ -1,0 +1,39 @@
+.Footer {
+    height: 237px;
+    background-color: #707070;
+}
+
+.Footer__copyright {
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Footer__text {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 48px 25px 21px 16px;
+}
+
+.Footer__facebook {
+    margin: 48px 16px 0 0;
+}
+
+.Footer__twitter {
+    margin: 48px 0 0 0;
+}
+
+.Footer__instagram {
+    margin: 48px 16px 0 16px;
+}
+
+.Footer__content {
+    display: flex;
+}
+
+@media (min-width: 430px) {
+    .Footer__content {
+        display: flex;
+        justify-content: space-around;
+    }
+}
